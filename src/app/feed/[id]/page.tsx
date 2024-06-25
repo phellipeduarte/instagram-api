@@ -65,7 +65,7 @@ export default function Page({
                         </div>
                         <div>
                             <p className="text-3xl font-bold">{convertISOToBRDate(post.timestamp)}</p>
-                            <p className="text-xl text-slate-300">Legenda: "{post.caption}"</p>
+                            <p className="text-xl text-slate-300">Legenda: 	{post.caption}</p>
                             <a className="text-sky-500 font-bold underline" href={post.permalink} target='_blank'>Acessar publicação</a>
                         </div>
                     </div>
