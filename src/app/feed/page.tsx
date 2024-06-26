@@ -75,9 +75,9 @@ export default function Page() {
                 <div className='pb-10 max-w-3xl'>
                     <h1 className="text-3xl font-bold">Estatísticas</h1>
                     <div className="flex justify-between">
-                        <p className="text-slate-300">Número: <span className="font-bold text-white">{posts.length}</span></p>
-                        <p className='text-slate-300'>No último ano: <span className="font-bold text-white">{postCount}</span> </p>
-                        <p className='text-slate-300'>Ano da primeira publicação: <span className="font-bold text-white">{firstPostYear}</span> </p>
+                        <p className="text-slate-800 dark:text-slate-300">Número: <span className="font-bold text-white">{posts.length}</span></p>
+                        <p className='text-slate-800 dark:text-slate-300'>No último ano: <span className="font-bold text-white">{postCount}</span> </p>
+                        <p className='text-slate-800 dark:text-slate-300'>Ano da primeira publicação: <span className="font-bold text-white">{firstPostYear}</span> </p>
                     </div>
                 </div>
             }
